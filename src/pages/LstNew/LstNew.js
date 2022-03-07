@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 import arrow from "../../assets/arrow.png";
 import l1 from "../../assets/l1.png";
 import './LstNews.css'
+import lestback from '../../assets/lst.png'
 const LstNew = () => {
   return (
-    <div className="lst-back">
+    <div >
+      <div className="lst-back">
+        <img src={lestback} alt="" />
+      </div>
       <Container className="mt-4 mb-4 mt-4 lst-new">
         <div className="d-flex justify-content-between mt-4 mb-4">
           <h3 className="text-white">LATST NEW</h3>
