@@ -1,5 +1,4 @@
 .typehero {
-  width: 303px;
   height: 44px;
   left: 0px;
   top: 0px;
@@ -7,6 +6,38 @@
   background: linear-gradient(180deg, #0b234f 0%, #0c123d 100%);
   border: 1px solid rgba(255, 255, 255, 0.09);
   box-sizing: border-box;
+}
+.accordion-button {
+  background: linear-gradient(180deg, #0B234F 0%, #0C123D 100%), #11214E !important;
+  border: 1px solid rgba(255, 255, 255, 0.09) !important;
+  color: white !important;
+  border: none !important;
+}
+.scroll{
+  height: 750px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #7872ad; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(49, 49, 102); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }
 .distanF {
   height: 26px;
@@ -68,9 +99,14 @@
     width: 24rem !important;
   }
 }
-@media (min-width: 1447px) and (max-width: 1702px) {
+@media (min-width: 1000px) and (max-width: 1202px) {
   .cardwid {
     width: 12rem !important;
+  }
+}
+@media (min-width: 1447px) and (max-width: 1702px) {
+  .cardwid {
+    width: 13rem !important;
   }
 }
 @media (min-width: 1703px) and (max-width: 1902px) {
@@ -86,6 +122,7 @@
 @media (min-width: 2103px) and (max-width: 2302px) {
   .cardwid {
     width: 18rem !important;
+   
   }
 }
 @media (min-width: 2303px) and (max-width: 2502px) {

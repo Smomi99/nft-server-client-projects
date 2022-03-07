@@ -52,12 +52,24 @@ const Properties = () => {
                 <img className="author-img" src={gunImg} alt="" />
               </div>
               <div>
-                <span className="property-text-1">Magic Sword</span>
+                <span className="property-text-1">Magic</span>
                 <h4 className="property-text-2">Weapon</h4>
                 <span className="property-text-3">2% have the same</span>
               </div>
             </div>
           </div>
+          {/* <div className="col-md-3">
+            <div className="property-box">
+              <div className="property-img-container">
+                <img className="author-img" src={gunImg} alt="" />
+              </div>
+              <div>
+                <span className="property-text-1">Magic Sword</span>
+                <h4 className="property-text-2">Weapon</h4>
+                <span className="property-text-3">2% have the same</span>
+              </div>
+            </div>
+          </div> */}
         </div>
       </section>
     </div>

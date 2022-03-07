@@ -5,7 +5,7 @@ import item from "../../assets/item.png";
 import land from "../../assets/land.png";
 const Subnav = () => {
   return (
-    <div style={{ border: "1px solid blue" }}>
+    <div style={{ border: "1px solid blue", height: '52px' }}>
       <>
         <Navbar variant="dark">
           <div>

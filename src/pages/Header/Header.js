@@ -9,17 +9,15 @@ import news from "../../assets/news.png";
 import { Link } from "react-router-dom";
 const Header = () => {
   return (
-    <div className="d-flex justify-content-between">
+    <div>
       <Navbar collapseOnSelect expand="lg" className="bg-header" variant="dark">
         <Container
-          style={{
-            marginLeft: "-22px",
-          }}
+          fluid
         >
-          <Navbar.Brand href="#home">
-            {" "}
+          <Navbar.Brand>
+
             <div style={{ width: "52px" }}>
-              <img style={{ width: "100%" }} src={footerLogo} alt="" />
+              <Link to="/"> <img style={{ width: "100%" }} src={footerLogo} alt="" /></Link>
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -30,43 +28,53 @@ const Header = () => {
                   <img src={menu} alt="" />
                 </Link>
               </Nav.Link>
-              <Nav.Link href="#pricing" className="p-4">
-                <div className="d-flex gap-2">
-                  <img
-                    className="img-fluid"
-                    style={{ width: "20px", height: "23px" }}
-                    src={diamond}
-                    alt=""
-                  />
-                  <h6 className="text-white">MARKETPLACE</h6>
-                </div>
+              <Nav.Link className="p-4">
+                <Link
+                  className="text-decoration-none text-white"
+                  to="/marketplace"
+                >
+                  <div className="d-flex gap-2">
+                    <img
+                      className="img-fluid"
+                      style={{ width: "20px", height: "23px" }}
+                      src={diamond}
+                      alt=""
+                    />
+                    <h6 className="text-white">MARKETPLACE</h6>
+                  </div>
+                </Link>
               </Nav.Link>
-              <Nav.Link href="#pricing" className="p-4 border-1">
-                <div className="d-flex gap-2">
-                  <img className="img-fluid" src={staking} alt="" />
-                  <h6 className="text-white">Staking</h6>
-                </div>
+              <Nav.Link className="p-4 border-1">
+                <Link className="text-decoration-none text-white" to="/buynow">
+                  <div className="d-flex gap-2">
+                    <img className="img-fluid" src={staking} alt="" />
+                    <h6 className="text-white">Staking</h6>
+                  </div>
+                </Link>
               </Nav.Link>
-              <Nav.Link href="#pricing" className="p-4">
-                <div className="d-flex gap-2">
-                  <img
-                    className="img-fluid"
-                    style={{ width: "20px", height: "20px" }}
-                    src={news}
-                    alt=""
-                  />
-                  <h6 className="text-white">News</h6>
-                </div>
+              <Nav.Link className="p-4">
+                <Link
+                  className="text-decoration-none text-white"
+                  to="/marketplace"
+                >
+                  <div className="d-flex gap-2">
+                    <img
+                      className="img-fluid"
+                      style={{ width: "20px", height: "20px" }}
+                      src={news}
+                      alt=""
+                    />
+                    <h6 className="text-white">News</h6>
+                  </div>
+                </Link>
               </Nav.Link>
             </Nav>
-
-
+            <Nav>
+              <Button className="btn">CONNECT WALLET</Button>
+            </Nav>
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Nav>
-        <Button className="btn m-4">CONNECT WALLET</Button>
-      </Nav>
     </div>
   );
 };
