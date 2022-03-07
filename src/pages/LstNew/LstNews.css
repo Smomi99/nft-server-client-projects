@@ -1,14 +1,4 @@
 
-.lst-back{
-    position: relative;
-    margin-top: 220px;
-}
-.lst-new{
-    position: absolute;
-    top: 1902px;
-    left: 11%;
-}
-
 @media only screen and (min-width: 770px) and (max-width: 991px) {
     .lstDesign{
       
