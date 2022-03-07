@@ -1,0 +1,95 @@
+.typehero {
+  width: 303px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #0b234f 0%, #0c123d 100%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-sizing: border-box;
+}
+.distanF {
+  height: 26px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #3c67b8 0%, #1c2e94 48.16%, #4271bf 100%);
+  opacity: 0.8;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.druios {
+  height: 26px;
+  left: 156px;
+  top: 0px;
+
+  background: linear-gradient(
+      180deg,
+      #112754 0%,
+      rgba(13, 23, 65, 0.9) 52.61%,
+      #0e2a58 100%
+    ),
+    linear-gradient(180deg, #112754 0%, #131d47 52.61%, #0e2856 100%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.equip {
+  width: 108px;
+  height: 44px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #112754 0%, #131d47 52.61%, #0e2856 100%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.pets {
+  width: 62px;
+  height: 34px;
+  left: 0px;
+  top: 0px;
+
+  background: linear-gradient(180deg, #112754 0%, #131d47 52.61%, #0e2856 100%);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.mcrt1 {
+  margin-top: -11px !important;
+}
+.axies1 {
+  margin-top: -11px !important;
+}
+@media (min-width: 280px) and (max-width: 380px) {
+  .cardwid {
+    width: 24rem !important;
+  }
+}
+@media (min-width: 1447px) and (max-width: 1702px) {
+  .cardwid {
+    width: 12rem !important;
+  }
+}
+@media (min-width: 1703px) and (max-width: 1902px) {
+  .cardwid {
+    width: 14rem !important;
+  }
+}
+@media (min-width: 1902px) and (max-width: 2102px) {
+  .cardwid {
+    width: 16rem !important;
+  }
+}
+@media (min-width: 2103px) and (max-width: 2302px) {
+  .cardwid {
+    width: 18rem !important;
+  }
+}
+@media (min-width: 2303px) and (max-width: 2502px) {
+  .cardwid {
+    width: 20rem !important;
+  }
+}
