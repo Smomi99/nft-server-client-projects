@@ -1,3 +1,11 @@
+.activebtn:hover{
+  background-color: #132957 ;
+  
+}
+.activebtn:focus{
+  background-color: #132957 ;
+
+}
 .bg-header {
   padding: 20px 22px;
   height: 80px;
