@@ -1,3 +1,51 @@
+.date{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 10px;
+
+position: static;
+width: 67px;
+height: 30px;
+left: 0px;
+top: 0px;
+
+background: #11214E;
+border: 1px solid rgba(255, 255, 255, 0.09);
+box-sizing: border-box;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+.equipment{
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 6px 10px;
+position: static;
+width: 107px;
+height: 30px;
+left: 0px;
+top: 0px;
+
+background: #11214E;
+border: 1px solid rgba(255, 255, 255, 0.09);
+box-sizing: border-box;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
 .typehero {
   height: 44px;
   left: 0px;
@@ -16,12 +64,14 @@
 .navbar{
   height: 64px !important;
 }
+
 .scroll{
-  height: 750px;
+  height: 100%;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
   padding: 20px;
+  border-right: 4px solid rgb(49, 49, 102);
 }
 /* width */
 ::-webkit-scrollbar {

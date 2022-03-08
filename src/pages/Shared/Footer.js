@@ -9,16 +9,16 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-container mt-4">
+    <div className="d-flex justify-content-between mt-4">
       <div className="footer-left">
-        <div style={{ width: "52px" }}>
+        <div style={{ width: "45px" }}>
           <img style={{ width: "100%" }} src={footerLogo} alt="" />
         </div>
         <div className="vertical-line-container">
           <img src={verticalLine} alt="" />
         </div>
         <div className="text-box">
-          <p>
+          <p style={{ fontSize: '12px' }}>
             <span className="footer-upper-line-text">
               <span className="footer-brand-color">MAGICCRAFT</span> is a
               registered trademark of
@@ -33,10 +33,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-right">
-        <img src={githubLogo} alt="" />
-        <img src={reactLogo} alt="" />
-        <img src={twitterLogo} alt="" />
-        <img src={instaLogo} alt="" />
+        <img style={{ width: '22px' }} src={githubLogo} alt="" />
+        <img style={{ width: '22px' }} src={reactLogo} alt="" />
+        <img style={{ width: '22px' }} src={twitterLogo} alt="" />
+        <img style={{ width: '22px' }} src={instaLogo} alt="" />
       </div>
     </div>
   );

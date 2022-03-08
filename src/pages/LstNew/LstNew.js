@@ -20,7 +20,7 @@ const LstNew = () => {
             {Array.from({ length: 4 }).map((_, idx) => (
               <Col style={{ position: "relative" }}>
                 <Card style={{ borderRadius: "8px" }} className="border-0">
-                  <Card.Img variant="top" src={l1} />
+                  <Link to="/marketplace"><Card.Img variant="top" src={l1} /></Link>
                 </Card>
                 <div className="lstDesign"
                   style={{

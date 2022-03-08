@@ -5,7 +5,7 @@ import di1 from "../../assets/di1.png";
 import dr1 from "../../assets/dr1.png";
 import arm from "../../assets/arm.png";
 import Footer from "../../pages/Shared/Footer";
-
+import dwnarr from '../../assets/arrd.png'
 import git from "../../assets/git.png";
 import wiz from "../../assets/wiz.png";
 import updownarr from "../../assets/updownarr.png";
@@ -19,7 +19,7 @@ const FirstMenuBody = () => {
   return (
     <div>
       <Row className="mb-4 "  >
-        <Col xs={12} md={3} >
+        <Col xs={12} md={3} className="scrollhi" >
           <div className="accordion scroll" id="accordionPanelsStayOpenExample ">
             <div className="accordion-item">
               <h2 className="accordion-header" id="panelsStayOpen-headingOne">
@@ -304,16 +304,24 @@ const FirstMenuBody = () => {
           </div>
         </Col>
         <Col md={9}  >
-          <div className="d-flex justify-content-between container">
-            <div>
+          <Row className=" mt-2">
+            <Col>
               <h4 className="text-white"> MARKET PLACE</h4>
-            </div>
-            <div className="d-flex">
-              <h6 className="text-white">SORT BY</h6>
+            </Col>
+            <Col className="d-flex align-items-center gap-2 ">
+              <p style={{ fontSize: '12px' }} className="text-white">SORT BY</p>
+              <p style={{ fontSize: '12px' }} className="equipment text-white">
+                EQUIPMENT
+                <img src={dwnarr} alt="" />
+              </p>
+              <p style={{ fontSize: '12px' }} className="date text-white">
+                Date
 
-            </div>
-          </div>
-          <Row xs="auto" className="container m-auto">
+                <img src={dwnarr} alt="" />
+              </p>
+            </Col>
+          </Row>
+          <Row xs="auto" className=" ">
 
             <Col className="mt-4 ">
               <Card className="cardwid border-0" style={{ width: "10rem" }}>

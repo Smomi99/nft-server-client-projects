@@ -18,7 +18,7 @@ const DropsForm = () => {
           {Array.from({ length: 4 }).map((_, idx) => (
             <Col>
               <Card style={{ borderRadius: "8px" }} className="border-0">
-                <Card.Img variant="top" src={t1} />
+                <Link to="/marketplace"><Card.Img variant="top" src={t1} /></Link>
                 <Card.Body style={{ backgroundColor: "#162557" }}>
                   <Card.Title
                     style={{ fontSize: "16px" }}
