@@ -61,7 +61,7 @@ const Header = () => {
               </Link>
             </Nav>
             <Nav>
-              <Button className="btn">CONNECT WALLET</Button>
+              <Button className="btn1">CONNECT WALLET</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

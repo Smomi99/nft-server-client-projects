@@ -83,7 +83,7 @@ const SecondPage = () => {
       {/* property section  */}
       <Properties></Properties>
       {/* description section */}
-      <section className="container description-container">
+      <section className="container  description-container">
         <h4 className="description-title">DESCRIPTION</h4>
         <div className="row g-4">
           <div className="col-md-6">
@@ -196,6 +196,12 @@ const SecondPage = () => {
           </div>
         </div>
       </section>
+      <div className="footban1">
+
+      </div>
+
+
+      <Footer />
 
     </div>
   );

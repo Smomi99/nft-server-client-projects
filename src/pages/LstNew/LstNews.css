@@ -1,4 +1,7 @@
 
+.lstDesign{
+position: relative;
+}
 @media only screen and (min-width: 770px) and (max-width: 991px) {
     .lstDesign{
       

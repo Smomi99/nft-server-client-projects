@@ -4,7 +4,6 @@ import Header from "./pages/Header/Header";
 import SecondPage from "./pages/SecondPage/SecondPage";
 import ThirdPage from "./pages/ThirdPage/ThirdPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./pages/Shared/Footer";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
         <Route path="/marketplace" element={<FirstPage />}></Route>
         <Route path="/buynow" element={<ThirdPage />}></Route>
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }

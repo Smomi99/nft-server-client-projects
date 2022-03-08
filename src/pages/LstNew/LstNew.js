@@ -48,6 +48,9 @@ const LstNew = () => {
           </Row>
         </div>
       </Container>
+      <div className="footban3">
+      </div>
+
     </div>
   );
 };

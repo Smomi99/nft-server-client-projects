@@ -1,14 +1,16 @@
 .activebtn:hover{
   background-color: #132957 ;
+  height: 65px !important;
   
 }
 .activebtn:focus{
   background-color: #132957 ;
-
+  height: 65px !important;
+  
 }
+
 .bg-header {
-  padding: 20px 22px;
-  height: 80px;
+  height: 54px !important;
   left: 0px;
   top: 0px;
 
@@ -26,7 +28,7 @@
       #213979 100%
     );
 }
-.btn {
+.btn1 {
   width: 197px;
   height: 50px;
   left: 0px;
