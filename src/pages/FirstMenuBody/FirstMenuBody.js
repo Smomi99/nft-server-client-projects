@@ -239,7 +239,7 @@ const FirstMenuBody = () => {
           </div>
         </Col>
         <Col md={9}  >
-          <Row className=" mt-2 ">
+          <Row className=" mt-2 container">
             <Col>
               <h4 className="text-white mt-4"> MARKET PLACE</h4>
             </Col>
@@ -249,7 +249,7 @@ const FirstMenuBody = () => {
                 EQUIPMENT
                 <img src={dwnarr} alt="" />
               </p>
-              <p style={{ fontSize: '12px' }} className="date text-white">
+              <p style={{ fontSize: '12px' }} className="date1 text-white">
                 Date
 
                 <img src={dwnarr} alt="" />
