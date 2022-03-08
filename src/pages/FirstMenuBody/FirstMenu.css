@@ -1,4 +1,17 @@
-.date{
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+*{
+  font-family: 'Nunito', sans-serif;
+}
+.marketheight{
+  height: 40%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+  border-right: 4px solid rgb(49, 49, 102);
+}
+.date1{
   display: flex;
 flex-direction: row;
 align-items: center;
@@ -66,7 +79,7 @@ flex-grow: 0;
 }
 
 .scroll{
-  height: 100%;
+  height: 45%;
   overflow-x: hidden;
   overflow-y: auto;
   text-align: center;
@@ -93,7 +106,7 @@ flex-grow: 0;
   background: #555; 
 }
 .distanF {
-  height: 16px;
+  height: 40px;
   left: 0px;
   top: 0px;
   background: linear-gradient(180deg, #3c67b8 0%, #1c2e94 48.16%, #4271bf 100%);
@@ -103,7 +116,8 @@ flex-grow: 0;
   border-radius: 4px;
 }
 .druios {
-  height: 16px;
+  height: 40px;
+
   background: linear-gradient(
       180deg,
       #112754 0%,
@@ -143,15 +157,59 @@ flex-grow: 0;
 .axies1 {
   margin-top: -11px !important;
 }
+
+.typeImg{
+  height: 16px;
+}
+.typeFont{
+  font-size: 12px;
+}
 @media (min-width: 280px) and (max-width: 380px) {
   .cardwid {
     width: 16rem !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 999px) {
+  .flexCol{
+    display: flex;
+    flex-direction: column;
   }
 }
 @media (min-width: 1000px) and (max-width: 1202px) {
   .cardwid {
     width: 8rem !important;
   }
+  .typeImg{
+    height: 14px;
+  }
+  .typeFont{
+    font-size: 8px;
+  }
+  .distanF {
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(180deg, #3c67b8 0%, #1c2e94 48.16%, #4271bf 100%);
+    opacity: 0.8;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  .druios {
+    height: 30px;
+  
+    background: linear-gradient(
+        180deg,
+        #112754 0%,
+        rgba(13, 23, 65, 0.9) 52.61%,
+        #0e2a58 100%
+      ),
+      linear-gradient(180deg, #112754 0%, #131d47 52.61%, #0e2856 100%);
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+
 }
 @media (min-width: 1200px) and (max-width: 1299px) {
   .cardwid {

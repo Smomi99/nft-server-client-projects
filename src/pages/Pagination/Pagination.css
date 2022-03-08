@@ -14,7 +14,6 @@ box-sizing: border-box;
 border-radius: 4px;
 }
 .btncenter{
-width: 40%;
 margin: auto;
 
 }
@@ -32,6 +31,10 @@ box-sizing: border-box;
 border-radius: 4px;
 
 
+}
+.subnav1{
+    height: 33px !important;
+    background-color: #132957;
 }
 @media only screen and (max-width: 600px) {
     .btncenter{

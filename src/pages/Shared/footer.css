@@ -5,12 +5,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.footer-left {
-  display: flex;
-  color: white;
-  gap: 24px;
-  padding: 46px auto;
-}
+
 .footer-upper-line-text {
   font-family: Roboto;
   font-style: normal;
@@ -21,9 +16,7 @@
 .footer-brand-color {
   color: #e5ce0f;
 }
-.footer-right img {
-  margin-right: 10px;
-}
+
 @media only screen and (max-width: 550px) {
   .footer-container {
     flex-direction: column;
@@ -34,5 +27,12 @@
   }
   .vertical-line-container {
     display: none;
+  }
+  .right-col{
+    display: flex;
+    flex-direction: column;
+  }
+  .logoimg{
+    margin-left: 40%;
   }
 }

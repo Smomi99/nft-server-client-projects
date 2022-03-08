@@ -1,4 +1,5 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import githubLogo from "../../assets/github.png";
 import instaLogo from "../../assets/insta.png";
 import verticalLine from "../../assets/Line 7.png";
@@ -9,9 +10,9 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className="d-flex justify-content-between mt-4">
-      <div className="footer-left">
-        <div style={{ width: "45px" }}>
+    <Row className=" align-items-center mt-2 ">
+      <Col sm={9} className="d-flex gap-4 ms-4 right-col text-white">
+        <div className="logoimg" style={{ width: "45px" }}>
           <img style={{ width: "100%" }} src={footerLogo} alt="" />
         </div>
         <div className="vertical-line-container">
@@ -31,14 +32,14 @@ const Footer = () => {
             <span className="footer-brand-color">2022 MAGICCRAFT</span> Inc.
           </p>
         </div>
-      </div>
-      <div className="footer-right">
-        <img style={{ width: '22px' }} src={githubLogo} alt="" />
-        <img style={{ width: '22px' }} src={reactLogo} alt="" />
-        <img style={{ width: '22px' }} src={twitterLogo} alt="" />
-        <img style={{ width: '22px' }} src={instaLogo} alt="" />
-      </div>
-    </div>
+      </Col>
+      <Col className="d-flex gap-4 text-center justify-content-end" >
+        <img style={{ width: '22px', height: '22px' }} src={githubLogo} alt="" />
+        <img style={{ width: '22px', height: '22px' }} src={reactLogo} alt="" />
+        <img style={{ width: '22px', height: '22px' }} src={twitterLogo} alt="" />
+        <img style={{ width: '22px', height: '22px' }} src={instaLogo} alt="" />
+      </Col>
+    </Row>
   );
 };
 

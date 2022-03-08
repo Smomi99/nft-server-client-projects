@@ -19,7 +19,7 @@ const FirstMenuBody = () => {
   return (
     <div>
       <Row className="mb-4 "  >
-        <Col xs={12} md={3} className="scrollhi" >
+        <Col xs={12} md={3}  >
           <div className="accordion scroll" id="accordionPanelsStayOpenExample ">
             <div className="accordion-item">
               <h2 className="accordion-header" id="panelsStayOpen-headingOne">
@@ -28,71 +28,71 @@ const FirstMenuBody = () => {
                 </button>
               </h2>
               <div style={{ backgroundColor: '#020d32 ' }} id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex distanF mt-4 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex distanF mt-4 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-4 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-4 gap-2 align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
                 </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={git} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={git} alt="" />
+                    <p className="text-white typeFont mt-3">
                       HARMONY
                     </p>
                   </button>
                 </div>
 
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
                 </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 mb-4 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex druios mt-2 mb-4 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
@@ -106,137 +106,72 @@ const FirstMenuBody = () => {
                 </button>
               </h2>
               <div style={{ backgroundColor: '#020d32 ' }} id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-4 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex druios mt-4 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-4 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-4 gap-2 align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
                 </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={git} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={git} alt="" />
+                    <p className="text-white typeFont mt-3">
                       HARMONY
                     </p>
                   </button>
                 </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
-                    </p>
-                  </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={git} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      HARMONY
                     </p>
                   </button>
                 </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                <div className="d-flex gap-2 flexCol ms-2">
+                  <button className="d-flex druios mt-2 mb-4 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={di1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={git} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      HARMONY
-                    </p>
-                  </button>
-                </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      DISTANCE FIGHTER
-                    </p>
-                  </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
+                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={dr1} alt="" />
+                    <p className="text-white typeFont mt-3">
                       DRUIOS
-                    </p>
-                  </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={git} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      HARMONY
-                    </p>
-                  </button>
-                </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      DISTANCE FIGHTER
-                    </p>
-                  </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      DRUIOS
-                    </p>
-                  </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={git} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      HARMONY
-                    </p>
-                  </button>
-                </div>
-                <div className="d-flex gap-2 ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={di1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      DISTANCE FIGHTER
-                    </p>
-                  </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={dr1} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      DRUIOS
-                    </p>
-                  </button>
-                  <button className="d-flex druios mt-2 mb-4 justify-content-evenly">
-                    <img style={{ height: "10px" }} src={git} alt="" />
-                    <p style={{ fontSize: "8px" }} className="text-white">
-                      HARMONY
                     </p>
                   </button>
                 </div>
@@ -304,11 +239,11 @@ const FirstMenuBody = () => {
           </div>
         </Col>
         <Col md={9}  >
-          <Row className=" mt-2">
+          <Row className=" mt-2 ">
             <Col>
-              <h4 className="text-white"> MARKET PLACE</h4>
+              <h4 className="text-white mt-4"> MARKET PLACE</h4>
             </Col>
-            <Col className="d-flex align-items-center gap-2 ">
+            <Col className="d-flex align-items-center gap-2 mt-4  justify-content-end ">
               <p style={{ fontSize: '12px' }} className="text-white">SORT BY</p>
               <p style={{ fontSize: '12px' }} className="equipment text-white">
                 EQUIPMENT
@@ -321,713 +256,718 @@ const FirstMenuBody = () => {
               </p>
             </Col>
           </Row>
-          <Row xs="auto" className=" ">
+          <div className=" ">
+            <Row xs="auto" >
 
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
-                    </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
                     >
-                      0.02 MCRT
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col className="mt-4 ">
-              <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                <Card.Img variant="top" src={m1} />
-                <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
-                  <Card.Title
-                    style={{ fontSize: "12px" }}
-                    className="text-white"
-                  >
-                    ConstitutionDAO
-                  </Card.Title>
-                  <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
-                    @ConstitutionDAO
-                  </Card.Text>
-                  <div className="d-flex gap-2 mcrt1">
-                    <Card.Text
-                      style={{ fontSize: "8px" }}
-                      className="text-warning"
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
                     >
-                      0.02 MCRT
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
                     </Card.Text>
-                    <p style={{ color: "#7183AF", fontSize: "8px" }}>
-                      $879.78
-                    </p>
-                  </div>
-                  <div
-                    className="d-flex gap-2 axies1"
-                    style={{ fontSize: "8px", color: "#7183AF" }}
-                  >
-                    <small>Axie #4567892 </small>
-                    <small>|</small>
-                    <small> Bread Count : 67</small>
-                  </div>
-                </Card.Body>
-              </Card>
-            </Col>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
+              <Col className="mt-4 ">
+                <Card className="cardwid border-0" style={{ width: "10rem" }}>
+                  <Card.Img variant="top" src={m1} />
+                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                    <Card.Title
+                      style={{ fontSize: "12px" }}
+                      className="text-white"
+                    >
+                      ConstitutionDAO
+                    </Card.Title>
+                    <Card.Text style={{ fontSize: "8px", color: "#7183AF" }}>
+                      @ConstitutionDAO
+                    </Card.Text>
+                    <div className="d-flex gap-2 mcrt1">
+                      <Card.Text
+                        style={{ fontSize: "8px" }}
+                        className="text-warning"
+                      >
+                        0.02 MCRT
+                      </Card.Text>
+                      <p style={{ color: "#7183AF", fontSize: "8px" }}>
+                        $879.78
+                      </p>
+                    </div>
+                    <div
+                      className="d-flex gap-2 axies1"
+                      style={{ fontSize: "8px", color: "#7183AF" }}
+                    >
+                      <small>Axie #4567892 </small>
+                      <small>|</small>
+                      <small> Bread Count : 67</small>
+                    </div>
+                  </Card.Body>
+                </Card>
+              </Col>
 
-          </Row>
-          <Pagination />
-          <FootBan />
-          <Footer />
+            </Row>
+            <Pagination />
+          </div>
+
+          <div className=" " style={{ borderTop: '4px solid' }}>
+            <FootBan />
+            <Footer />
+          </div>
         </Col>
 
       </Row>

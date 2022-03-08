@@ -1,6 +1,6 @@
 .footban{
     background-image: url('../../assets//footban.png');
-    height: 222px;
+    height: 282px;
     position: relative;
 }
 .footban1{
@@ -9,7 +9,9 @@
     position: relative;
     opacity: .5;
     top: -200px;
+    
 }
+
 .footban2{
     background-image: url('../../assets//footban.png');
     height: 322px;
@@ -18,6 +20,12 @@
     top: -200px;
 }
 .footban3{
+    background-image: url('../../assets//footban.png');
+    height: 222px;
+    position: relative;
+    top: -32px;
+}
+.footban4{
     background-image: url('../../assets//footban.png');
     height: 222px;
     position: relative;
