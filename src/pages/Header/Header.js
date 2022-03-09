@@ -1,16 +1,16 @@
 import React from "react";
-import { Button, Container, Nav, Navbar, NavDropdown, NavLink } from "react-bootstrap";
+import { Button, Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./Header.css";
 import footerLogo from "../../assets/logo1.png";
 import menu from "../../assets/menu.png";
 import diamond from "../../assets/diamond.png";
 import staking from "../../assets/staking.png";
 import news from "../../assets/news.png";
-import { Link } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 const Header = () => {
   return (
     <div>
-      <Navbar collapseOnSelect expand="lg" className="bg-header" variant="dark">
+      <Navbar collapseOnSelect expand="lg" className="bg-header" bg="dark" variant="dark">
         <Container
           fluid
           className="d-flex align-items-center"
@@ -25,7 +25,7 @@ const Header = () => {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto d-flex align-items-center">
 
-              <Link to="/" className="activebtn p-4 text-decoration-none">
+              <NavLink to="/" className="activebtn p-4 text-decoration-none">
                 <div className="d-flex gap-2">
                   <img
                     className="img-fluid"
@@ -34,8 +34,8 @@ const Header = () => {
                     alt=""
                   />
                 </div>
-              </Link>
-              <Link to="/marketplace" className="activebtn p-4 text-decoration-none">
+              </NavLink>
+              <NavLink to="/marketplace" className="activebtn p-4 text-decoration-none">
                 <div className="d-flex gap-2">
                   <img
                     className="img-fluid"
@@ -45,15 +45,15 @@ const Header = () => {
                   />
                   <h6 style={{ fontSize: '14px' }} className="text-white">MARKETPLACE</h6>
                 </div>
-              </Link>
+              </NavLink >
 
-              <Link to="/buynow" className="activebtn p-4 text-decoration-none">
+              <NavLink to="/buynow" className="activebtn p-4 text-decoration-none">
                 <div className="d-flex gap-2">
                   <img className="img-fluid" src={staking} style={{ width: "16px", height: "16px" }} alt="" />
                   <h6 style={{ fontSize: '14px' }} className="text-white">Staking</h6>
                 </div>
-              </Link>
-              <Link to="/marketplace" className="activebtn p-4 text-decoration-none">
+              </NavLink >
+              <NavLink to="/marketplace" className="activebtn p-4 text-decoration-none">
 
                 <div className="d-flex gap-2">
                   <img
@@ -64,10 +64,10 @@ const Header = () => {
                   />
                   <h6 style={{ fontSize: '14px' }} className="text-white">News</h6>
                 </div>
-              </Link>
+              </NavLink >
             </Nav>
             <Nav>
-              <Button style={{ fontSize: '14px' }} className="btn1">CONNECT WALLET</Button>
+              <Button style={{ fontSize: '14px' }} className="btn1 m-auto">CONNECT WALLET</Button>
             </Nav>
           </Navbar.Collapse>
         </Container>

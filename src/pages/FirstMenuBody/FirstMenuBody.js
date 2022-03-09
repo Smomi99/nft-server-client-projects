@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonGroup, Card, Col, DropdownButton, Row } from "react-bootstrap";
+import { Button, Card, Col, Dropdown, DropdownButton, Row } from "react-bootstrap";
 import m1 from "../../assets/m1.png";
 import di1 from "../../assets/di1.png";
 import dr1 from "../../assets/dr1.png";
@@ -11,9 +11,8 @@ import wiz from "../../assets/wiz.png";
 import updownarr from "../../assets/updownarr.png";
 import "./FirstMenu.css";
 import Pagination from "../Pagination/Pagination";
-import { Dropdown } from "bootstrap";
-import { Button } from "bootstrap";
 import FootBan from "../FootBan/FootBan";
+import { Link } from "react-router-dom";
 
 const FirstMenuBody = () => {
   return (
@@ -238,31 +237,43 @@ const FirstMenuBody = () => {
 
           </div>
         </Col>
-        <Col md={9}  >
-          <Row className=" mt-2 container">
+        <Col md={9} className=" secondCol"  >
+          <Row className=" mt-2 container mb-2">
             <Col>
               <h4 className="text-white mt-4"> MARKET PLACE</h4>
             </Col>
             <Col className="d-flex align-items-center gap-2 mt-4  justify-content-end ">
-              <p style={{ fontSize: '12px' }} className="text-white">SORT BY</p>
-              <p style={{ fontSize: '12px' }} className="equipment text-white">
-                EQUIPMENT
-                <img src={dwnarr} alt="" />
-              </p>
-              <p style={{ fontSize: '12px' }} className="date1 text-white">
-                Date
+              <p style={{ fontSize: '12px' }} className="text-white my-2">SORT BY</p>
+              <Dropdown>
+                <Dropdown.Toggle className="equipment text-white" id="dropdown-basic">
+                  EQUIPMENT
+                </Dropdown.Toggle>
 
-                <img src={dwnarr} alt="" />
-              </p>
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
+              <Dropdown>
+                <Dropdown.Toggle className="equipment text-white" id="dropdown-basic">
+                  Date
+                </Dropdown.Toggle>
+
+                <Dropdown.Menu>
+                  <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                  <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                </Dropdown.Menu>
+              </Dropdown>
             </Col>
           </Row>
           <div className=" ">
             <Row xs="auto" >
 
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -294,10 +305,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -329,10 +339,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -364,10 +373,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -399,10 +407,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -434,10 +441,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -469,10 +475,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -504,10 +509,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -539,10 +543,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -574,10 +577,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -609,10 +611,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -644,10 +645,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -679,10 +679,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -714,10 +713,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -749,10 +747,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -784,10 +781,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -819,10 +815,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -854,10 +849,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -889,10 +883,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -924,10 +917,9 @@ const FirstMenuBody = () => {
                   </Card.Body>
                 </Card>
               </Col>
-              <Col className="mt-4 ">
+              <Col className="mt-4  cardMargin">
                 <Card className="cardwid border-0" style={{ width: "10rem" }}>
-                  <Card.Img variant="top" src={m1} />
-                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
+                  <Link to="/"><Card.Img variant="top" src={m1} /></Link>                  <Card.Body style={{ backgroundColor: "#162557", borderRadius: '0px 0px 5px 5px' }}>
                     <Card.Title
                       style={{ fontSize: "12px" }}
                       className="text-white"
@@ -970,8 +962,8 @@ const FirstMenuBody = () => {
           </div>
         </Col>
 
-      </Row>
-    </div>
+      </Row >
+    </div >
   );
 };
 

@@ -50,18 +50,8 @@
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  background: linear-gradient(
-      270deg,
-      #030f36 0%,
-      rgba(0, 11, 47, 0.24) 26.54%,
-      rgba(0, 9, 37, 0.21) 30.68%,
-      rgba(0, 0, 0, 0) 100%
-    ),
-    linear-gradient(
-      180deg,
-      #44549d 0%,
-      rgba(53, 69, 147, 0.5) 53.05%,
-      #213979 100%
-    );
+background-color: #030f36;
+z-index: 1;
+border-radius: 22px;
 }
 }
