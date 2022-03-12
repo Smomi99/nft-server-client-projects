@@ -1,16 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import githubLogo from "../../assets/github.png";
-import instaLogo from "../../assets/insta.png";
 import verticalLine from "../../assets/Line 7.png";
 import footerLogo from "../../assets/logo1.png";
-import reactLogo from "../../assets/Rectangle.png";
-import twitterLogo from "../../assets/twitter.png";
+
+import { FaDiscord, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
+
 import "./footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <Row className=" align-items-center mt-2 ">
+    <Row className=" align-items-center mt-4 ">
       <Col sm={9} className="d-flex gap-4 ms-4 right-col text-white">
         <div className="logoimg" style={{ width: "45px" }}>
           <img style={{ width: "100%" }} src={footerLogo} alt="" />
@@ -34,10 +34,12 @@ const Footer = () => {
         </div>
       </Col>
       <Col className="d-flex gap-4 text-center justify-content-end" >
-        <img style={{ width: '22px', height: '22px' }} src={githubLogo} alt="" />
-        <img style={{ width: '22px', height: '22px' }} src={reactLogo} alt="" />
-        <img style={{ width: '22px', height: '22px' }} src={twitterLogo} alt="" />
-        <img style={{ width: '22px', height: '22px' }} src={instaLogo} alt="" />
+
+        <Link className="text-white " to="#"><h4><FaGithub /></h4></Link>
+        <Link className="text-white " to="#"><h4><FaDiscord /></h4></Link>
+        <Link className="text-white " to="#"><h4><FaTwitter /></h4></Link>
+        <Link className="text-white " to="#"><h4><FaInstagram /></h4></Link>
+
       </Col>
     </Row>
   );

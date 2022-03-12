@@ -28,13 +28,13 @@ const FirstMenuBody = () => {
               </h2>
               <div style={{ backgroundColor: '#020d32 ' }} id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex distanF mt-4 justify-content-evenly align-items-center">
+                  <button className="d-flex distanF gap-1 mt-4 justify-content-evenly align-items-center">
                     <img className="typeImg" src={di1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-4 gap-2 align-items-center">
+                  <button className="d-flex druios mt-4 gap-1 align-items-center">
                     <img className="typeImg" src={dr1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DRUIOS
@@ -42,19 +42,19 @@ const FirstMenuBody = () => {
                   </button>
                 </div>
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={di1} alt="" />
+                  <button className="d-flex druios gap-1 mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={arm} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DISTANCE FIGHTER
+                      ARMORED
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={dr1} alt="" />
+                  <button className="d-flex gap-1 druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={wiz} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DRUIOS
+                      WIZARDS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                  <button className="d-flex gap-1  druios mt-2 justify-content-evenly align-items-center">
                     <img className="typeImg" src={git} alt="" />
                     <p className="text-white typeFont mt-3">
                       HARMONY
@@ -63,13 +63,13 @@ const FirstMenuBody = () => {
                 </div>
 
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                  <button className="d-flex druios gap-1 mt-2 justify-content-evenly align-items-center">
                     <img className="typeImg" src={di1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                  <button className="d-flex druios gap-1 mt-2 justify-content-evenly align-items-center">
                     <img className="typeImg" src={dr1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DRUIOS
@@ -77,22 +77,22 @@ const FirstMenuBody = () => {
                   </button>
                 </div>
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex druios mt-2 mb-4 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={di1} alt="" />
+                  <button className="d-flex druios gap-1 mt-2 mb-4 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={arm} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DISTANCE FIGHTER
+                      ARMORED
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={dr1} alt="" />
+                  <button className="d-flex druios gap-1 mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={wiz} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DRUIOS
+                      WIZARDS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={dr1} alt="" />
+                  <button className="d-flex druios gap-1 mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={git} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DRUIOS
+                      HARMONY
                     </p>
                   </button>
                 </div>
@@ -106,13 +106,13 @@ const FirstMenuBody = () => {
               </h2>
               <div style={{ backgroundColor: '#020d32 ' }} id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex druios mt-4 justify-content-evenly align-items-center">
+                  <button className="d-flex distanF mt-4 justify-content-evenly align-items-center">
                     <img className="typeImg" src={di1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-4 gap-2 align-items-center">
+                  <button className="d-flex druios gap-1 mt-4 gap-2 align-items-center">
                     <img className="typeImg" src={dr1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DRUIOS
@@ -120,19 +120,19 @@ const FirstMenuBody = () => {
                   </button>
                 </div>
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={di1} alt="" />
+                  <button className="d-flex gap-1 druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={arm} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DISTANCE FIGHTER
+                      ARMORED
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={dr1} alt="" />
+                  <button className="d-flex gap-1 druios mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={wiz} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DRUIOS
+                      WIZARDS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                  <button className="d-flex gap-1  druios mt-2 justify-content-evenly align-items-center">
                     <img className="typeImg" src={git} alt="" />
                     <p className="text-white typeFont mt-3">
                       HARMONY
@@ -141,13 +141,13 @@ const FirstMenuBody = () => {
                 </div>
 
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                  <button className="d-flex gap-1 druios mt-2 justify-content-evenly align-items-center">
                     <img className="typeImg" src={di1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DISTANCE FIGHTER
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
+                  <button className="d-flex gap-1 druios mt-2 justify-content-evenly align-items-center">
                     <img className="typeImg" src={dr1} alt="" />
                     <p className="text-white typeFont mt-3">
                       DRUIOS
@@ -155,22 +155,22 @@ const FirstMenuBody = () => {
                   </button>
                 </div>
                 <div className="d-flex gap-2 flexCol ms-2">
-                  <button className="d-flex druios mt-2 mb-4 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={di1} alt="" />
+                  <button className="d-flex druios gap-1 mt-2 mb-4 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={arm} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DISTANCE FIGHTER
+                      ARMORED
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={dr1} alt="" />
+                  <button className="d-flex druios gap-1 mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={wiz} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DRUIOS
+                      WIZARDS
                     </p>
                   </button>
-                  <button className="d-flex druios mt-2 justify-content-evenly align-items-center">
-                    <img className="typeImg" src={dr1} alt="" />
+                  <button className="d-flex druios gap-1 mt-2 justify-content-evenly align-items-center">
+                    <img className="typeImg" src={git} alt="" />
                     <p className="text-white typeFont mt-3">
-                      DRUIOS
+                      HARMONY
                     </p>
                   </button>
                 </div>
@@ -187,11 +187,11 @@ const FirstMenuBody = () => {
                   <div className="d-flex gap-4 ms-4 mt-4 mb-4">
                     <div className="d-flex justify-content-between equip align-items-center">
                       <h5 style={{ fontSize: '12px' }} className="text-white">4568</h5>
-                      <img style={{ width: '16px' }} src={updownarr} alt="" />
+                      <Link to="#up"> <img style={{ width: '16px' }} src={updownarr} alt="" /></Link>
                     </div>
                     <div className="d-flex justify-content-between equip align-items-center">
                       <h5 style={{ fontSize: '12px' }} className="text-white">4568</h5>
-                      <img style={{ width: '16px' }} src={updownarr} alt="" />
+                      <Link to="#up"> <img style={{ width: '16px' }} src={updownarr} alt="" /></Link>
                     </div>
                   </div>
                 </div>
@@ -205,31 +205,31 @@ const FirstMenuBody = () => {
               </h2>
               <div style={{ backgroundColor: '#020d32 ' }} id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
 
-                <div className="d-flex gap-2 mb-2">
-                  <button className="text-white ms-2 pets text-center">2006</button>
-                  <button className="text-white ms-2 pets text-center">2007</button>
-                  <button className="text-white ms-2 pets text-center">2008</button>
-                  <button className="text-white ms-2 pets text-center">2009</button>
+                <div className="d-flex  mb-2">
+                  <button className="text-white ms-2  mt-4 pets text-center">2006</button>
+                  <button className="text-white ms-2  mt-4 pets text-center">2007</button>
+                  <button className="text-white ms-2  mt-4 pets text-center">2008</button>
+                  <button className="text-white ms-2  mt-4 pets text-center">2009</button>
                 </div>
-                <div className="d-flex gap-2 mb-2">
+                <div className="d-flex  mb-2">
                   <button className="text-white ms-2 pets text-center">2010</button>
                   <button className="text-white ms-2 pets text-center">2011</button>
                   <button className="text-white ms-2 pets text-center">2012</button>
                   <button className="text-white ms-2 pets text-center">2013</button>
                 </div>
-                <div className="d-flex gap-2 mb-2">
+                <div className="d-flex  mb-2">
                   <button className="text-white ms-2 pets text-center">2014</button>
                   <button className="text-white ms-2 pets text-center">2015</button>
                   <button className="text-white ms-2 pets text-center">2016</button>
                   <button className="text-white ms-2 pets text-center">2017</button>
                 </div>
-                <div className="d-flex gap-2 mb-2 ">
+                <div className="d-flex  mb-2 ">
                   <button className="text-white ms-2 pets text-center">2018</button>
                   <button className="text-white ms-2 pets text-center">2019</button>
                   <button className="text-white ms-2 pets text-center">2020</button>
                   <button className="text-white ms-2 pets text-center">2021</button>
                 </div>
-                <div className="d-flex gap-2 ">
+                <div className="d-flex ">
                   <button className="text-white ms-2 mb-2 pets text-center">2022</button>
                 </div>
               </div>

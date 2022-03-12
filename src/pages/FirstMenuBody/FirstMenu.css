@@ -42,8 +42,8 @@ align-items: center;
 padding: 6px 10px;
 height: 30px;
 
-background: #11214E;
-border: 1px solid rgba(255, 255, 255, 0.09);
+background: #11214E !important;
+border: 1px solid rgba(255, 255, 255, 0.09) !important;
 box-sizing: border-box;
 border-radius: 8px;
 
@@ -137,10 +137,6 @@ flex-grow: 0;
   border-radius: 4px;
 }
 .pets {
-  width: 52px;
-  height: 24px;
-  left: 0px;
-  top: 0px;
 
   background: linear-gradient(180deg, #112754 0%, #131d47 52.61%, #0e2856 100%);
   border: 1px solid rgba(255, 255, 255, 0.09);
@@ -225,10 +221,17 @@ flex-grow: 0;
   }
 
 }
-@media (min-width: 1200px) and (max-width: 1299px) {
+@media (min-width: 1200px) and (max-width: 1399px) {
   .cardwid {
-    width: 10rem !important;
+    width: 11rem !important;
   }
+  .typeImg{
+    height: 14px;
+  }
+  .typeFont{
+    font-size: 8px;
+  }
+
 }
 @media (min-width: 1447px) and (max-width: 1702px) {
   .cardwid {
