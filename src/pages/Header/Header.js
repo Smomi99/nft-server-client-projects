@@ -19,6 +19,8 @@ const Header = () => {
 
             <div style={{ width: "52px" }}>
               <Link to="/"> <img style={{ width: "80%" }} src={footerLogo} alt="" /></Link>
+              <h6 style={{ fontSize: '8px' }} className="text-white">Magic Craft</h6>
+
             </div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
