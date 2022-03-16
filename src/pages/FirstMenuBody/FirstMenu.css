@@ -162,6 +162,12 @@ flex-grow: 0;
     .typeFont{
       font-size: 9px;
     }
+    .cardwid {
+      width: 18rem !important;
+    }
+    .cardMargin{
+      margin: auto !important;
+    }
 
 }
 @media (min-width: 350px) and (max-width: 400px) {
