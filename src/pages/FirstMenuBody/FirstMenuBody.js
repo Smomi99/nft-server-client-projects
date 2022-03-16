@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Card, Col, Dropdown, DropdownButton, Row } from "react-bootstrap";
+import { Button, Card, Col, Dropdown, DropdownButton, FormControl, InputGroup, Row } from "react-bootstrap";
 import m1 from "../../assets/m1.png";
 import di1 from "../../assets/di1.png";
 import dr1 from "../../assets/dr1.png";
@@ -186,13 +186,21 @@ const FirstMenuBody = () => {
                 <div className="d-flex gap-4 ms-2">
                   <div className="d-flex gap-4 petSec ms-4 mt-4 mb-4">
                     <div className="d-flex justify-content-between equip align-items-center">
-                      <h5 style={{ fontSize: '12px' }} className="text-white">4568</h5>
-                      <Link to="#up"> <img style={{ width: '16px' }} src={updownarr} alt="" /></Link>
+                      <InputGroup size="sm" className="mb-3">
+                        <FormControl defaultValue={"4334"} aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                      </InputGroup>
+                      <Link to="#up"> <img style={{ width: '20px', marginTop: '-16px' }} src={updownarr} alt="" /></Link>
+
                     </div>
                     <div className="d-flex justify-content-between equip align-items-center">
-                      <h5 style={{ fontSize: '12px' }} className="text-white">4568</h5>
-                      <Link to="#up"> <img style={{ width: '16px' }} src={updownarr} alt="" /></Link>
+                      <InputGroup size="sm" className="mb-3">
+                        <FormControl defaultValue={"4334"} aria-label="Small" aria-describedby="inputGroup-sizing-sm" />
+                      </InputGroup>
+                      <Link to="#up"> <img style={{ width: '20px', marginTop: '-16px' }} src={updownarr} alt="" /></Link>
+
                     </div>
+
+
                   </div>
                 </div>
               </div>

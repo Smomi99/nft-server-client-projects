@@ -127,15 +127,10 @@ flex-grow: 0;
   border-radius: 4px;
 }
 .equip {
-  width:60px;
-  height: 24px;
+  width:80px;
+  height: 22px;
   left: 0px;
   top: 0px;
-
-  background: linear-gradient(180deg, #112754 0%, #131d47 52.61%, #0e2856 100%);
-  border: 1px solid rgba(255, 255, 255, 0.09);
-  box-sizing: border-box;
-  border-radius: 4px;
 }
 .pets {
 
