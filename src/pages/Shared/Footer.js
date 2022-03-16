@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <Row className=" align-items-center mt-4 ">
-      <Col sm={9} className="d-flex gap-4 ms-4 right-col text-white">
+      <Col sm={9} className="d-flex gap-4 ms-4 mt-4 right-col text-white">
         <div className="logoimg">
           <img style={{ width: "45px" }} src={footerLogo} alt="" />
           <h6 style={{ fontSize: '8px' }} className="text-white">Magic Craft</h6>

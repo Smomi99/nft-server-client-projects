@@ -184,7 +184,7 @@ const FirstMenuBody = () => {
               </h2>
               <div style={{ backgroundColor: '#020d32 ' }} id="panelsStayOpen-collapseThree" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
                 <div className="d-flex gap-4 ms-2">
-                  <div className="d-flex gap-4 ms-4 mt-4 mb-4">
+                  <div className="d-flex gap-4 petSec ms-4 mt-4 mb-4">
                     <div className="d-flex justify-content-between equip align-items-center">
                       <h5 style={{ fontSize: '12px' }} className="text-white">4568</h5>
                       <Link to="#up"> <img style={{ width: '16px' }} src={updownarr} alt="" /></Link>
@@ -205,31 +205,31 @@ const FirstMenuBody = () => {
               </h2>
               <div style={{ backgroundColor: '#020d32 ' }} id="panelsStayOpen-collapseFour" className="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
 
-                <div className="d-flex  mb-2">
+                <div className="d-flex petSec mb-2">
                   <button className="text-white ms-2  mt-4 pets text-center">2006</button>
                   <button className="text-white ms-2  mt-4 pets text-center">2007</button>
                   <button className="text-white ms-2  mt-4 pets text-center">2008</button>
                   <button className="text-white ms-2  mt-4 pets text-center">2009</button>
                 </div>
-                <div className="d-flex  mb-2">
+                <div className="d-flex petSec mb-2">
                   <button className="text-white ms-2 pets text-center">2010</button>
                   <button className="text-white ms-2 pets text-center">2011</button>
                   <button className="text-white ms-2 pets text-center">2012</button>
                   <button className="text-white ms-2 pets text-center">2013</button>
                 </div>
-                <div className="d-flex  mb-2">
+                <div className="d-flex petSec mb-2">
                   <button className="text-white ms-2 pets text-center">2014</button>
                   <button className="text-white ms-2 pets text-center">2015</button>
                   <button className="text-white ms-2 pets text-center">2016</button>
                   <button className="text-white ms-2 pets text-center">2017</button>
                 </div>
-                <div className="d-flex  mb-2 ">
+                <div className="d-flex petSec  mb-2 ">
                   <button className="text-white ms-2 pets text-center">2018</button>
                   <button className="text-white ms-2 pets text-center">2019</button>
                   <button className="text-white ms-2 pets text-center">2020</button>
                   <button className="text-white ms-2 pets text-center">2021</button>
                 </div>
-                <div className="d-flex ">
+                <div className="d-flex petSec ">
                   <button className="text-white ms-2 mb-2 pets text-center">2022</button>
                 </div>
               </div>

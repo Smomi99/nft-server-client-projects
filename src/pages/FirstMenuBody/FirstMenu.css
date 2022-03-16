@@ -103,6 +103,7 @@ flex-grow: 0;
 }
 .distanF {
   height: 40px;
+  padding: 4px;
   left: 0px;
   top: 0px;
   background: linear-gradient(180deg, #3c67b8 0%, #1c2e94 48.16%, #4271bf 100%);
@@ -113,7 +114,7 @@ flex-grow: 0;
 }
 .druios {
   height: 40px;
-
+  padding: 4px;
   background: linear-gradient(
       180deg,
       #112754 0%,
@@ -156,10 +157,15 @@ flex-grow: 0;
 .typeFont{
   font-size: 12px;
 }
+@media (min-width: 300px) and (max-width: 350px) {
+    .typeFont{
+      font-size: 9px;
+    }
 
-@media (min-width: 280px) and (max-width: 400px) {
+}
+@media (min-width: 350px) and (max-width: 400px) {
   .cardwid {
-    width: 16rem !important;
+    width: 18rem !important;
   }
   .cardMargin{
     margin: auto !important;
@@ -181,6 +187,13 @@ flex-grow: 0;
     display: flex;
     flex-direction: column;
   }
+  .petSec{
+    display: flex;
+    flex-direction: column;
+  }
+  .petSec button{
+    margin-top: 18px;
+  }
 }
 @media (min-width: 1000px) and (max-width: 1202px) {
   .cardwid {
@@ -190,12 +203,13 @@ flex-grow: 0;
     font-size: 7px !important;  
   }
   .typeImg{
-    height: 14px;
+    height: 10px;
   }
   .typeFont{
-    font-size: 8px;
+    font-size: 6px;
   }
   .distanF {
+    padding: 2px;
     height: 30px;
     left: 0px;
     top: 0px;
@@ -207,7 +221,7 @@ flex-grow: 0;
   }
   .druios {
     height: 30px;
-  
+    padding: 2px;
     background: linear-gradient(
         180deg,
         #112754 0%,
@@ -223,13 +237,21 @@ flex-grow: 0;
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .cardwid {
-    width: 11rem !important;
+    width: 10rem !important;
   }
   .typeImg{
     height: 14px;
   }
   .typeFont{
     font-size: 8px;
+  }
+  .distanF{
+    height: 32px;
+    padding: 4px;
+  }
+  .druios{
+    height: 32px;
+    padding: 4px;
   }
 
 }
