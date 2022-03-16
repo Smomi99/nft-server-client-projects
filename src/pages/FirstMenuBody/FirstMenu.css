@@ -143,6 +143,7 @@ flex-grow: 0;
   border: 1px solid rgba(255, 255, 255, 0.09);
   box-sizing: border-box;
   border-radius: 4px;
+  padding: 6px;
 }
 .mcrt1 {
   margin-top: -11px !important;
@@ -197,7 +198,7 @@ flex-grow: 0;
 }
 @media (min-width: 1000px) and (max-width: 1202px) {
   .cardwid {
-    width: 9rem !important;
+    width: 8rem !important;
   }
   .axies1 {
     font-size: 7px !important;  
@@ -232,6 +233,9 @@ flex-grow: 0;
     border: 1px solid rgba(255, 255, 255, 0.09);
     box-sizing: border-box;
     border-radius: 4px;
+  }
+  .pets{
+    padding: 0%;
   }
 
 }
